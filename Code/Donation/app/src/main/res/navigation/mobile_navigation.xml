@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.donation.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.donation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_verification"
+        android:name="com.example.donation.ui.verification.VerificationFragment"
+        android:label="@string/menu_verification"
+        tools:layout="@layout/fragment_verification" />
+
+    <fragment
+        android:id="@+id/nav_list_item"
+        android:name="com.example.donation.ui.list_item.ListItemFragment"
+        android:label="@string/menu_list_item"
+        tools:layout="@layout/fragment_list_item" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.donation.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Donation</string>
+    <string name="title_activity_main_app_page">MainAppPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_verification">Verification</string>
+    <string name="menu_list_item">List an item</string>
+    <string name="upload">Upload</string>
+    <string name="please_upload_an_eviction_letter_or_a_valid_homeless_shelter_document">Please upload an eviction letter or a valid homeless shelter document</string>
+    <string name="todo">TODO</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_account">Account</string>
+    <string name="reset">reset</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="set_the_following_person_to_verified">Set the following person to verified</string>
+
+</resources>
